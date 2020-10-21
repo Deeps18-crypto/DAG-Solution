@@ -1,10 +1,6 @@
 # DAG-All-Possible-Paths
-You are given a DAG which may be disjointed (this represents courses in a university that must be taken in a particular order, but may represent different streams).
 
-Identify all node with 0 in-degree.
-For each such node, generate all possible paths that originate from that node
-
-e.g., in the following graph assume that all edges point downward
+The following graph assume that all edges point downward
 
       0      6 .      4
       /  \ .  /
@@ -12,14 +8,19 @@ e.g., in the following graph assume that all edges point downward
     / \ . /
   3 .  5
 
-you should generate the following paths
+It should generate the following paths
 0->1->3
 0->1->5 
 0->2->5
 6->2->5
 4
 
-__________________________________________________________________________________________________________________________________
+Node - The node is also called as vertices.A vertex is a point where multiple lines meet
+
+Edge - The edge is also called as links.The conection between two nodes is called as edge.In the given question we have 6 edge
+
+Path - Path represents a sequence of edges between the two vertices
+
 Steps to run the code:
 
 -> To run the sample code, simple run the "DAGServiceTest"
